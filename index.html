@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love Story for Khushi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Page 1: How We Met -->
+        <section class="page active" id="page1">
+            <div class="content">
+                <div class="hearts-container">
+                    <div class="floating-heart">❤️</div>
+                    <div class="floating-heart">💕</div>
+                    <div class="floating-heart">💖</div>
+                    <div class="floating-heart">💗</div>
+                    <div class="floating-heart">💝</div>
+                </div>
+                <h1 class="title">Do you remember...</h1>
+                <p class="message">how we met as strangers?</p>
+                <div class="image-placeholder">
+                    <div class="sparkle">✨</div>
+                </div>
+                <button class="next-btn" onclick="nextPage()">Continue Our Story →</button>
+            </div>
+        </section>
+
+        <!-- Page 2: Spending Time -->
+        <section class="page" id="page2">
+            <div class="content">
+                <div class="hearts-container">
+                    <div class="floating-heart">💕</div>
+                    <div class="floating-heart">💖</div>
+                    <div class="floating-heart">💗</div>
+                </div>
+                <h1 class="title">Slowly...</h1>
+                <p class="message">we started spending time together</p>
+                <div class="image-placeholder">
+                    <div class="sparkle">✨</div>
+                </div>
+                <button class="next-btn" onclick="nextPage()">Continue Our Story →</button>
+            </div>
+        </section>
+
+        <!-- Page 3: Realization -->
+        <section class="page" id="page3">
+            <div class="content">
+                <div class="hearts-container">
+                    <div class="floating-heart">💖</div>
+                    <div class="floating-heart">💗</div>
+                    <div class="floating-heart">💝</div>
+                </div>
+                <h1 class="title">Suddenly...</h1>
+                <p class="message">I realized I want to spend my whole life with you</p>
+                <div class="image-placeholder">
+                    <div class="sparkle">✨</div>
+                </div>
+                <button class="next-btn" onclick="nextPage()">Continue Our Story →</button>
+            </div>
+        </section>
+
+        <!-- Page 4: Destiny -->
+        <section class="page" id="page4">
+            <div class="content">
+                <div class="hearts-container">
+                    <div class="floating-heart">❤️</div>
+                    <div class="floating-heart">💕</div>
+                    <div class="floating-heart">💖</div>
+                    <div class="floating-heart">💗</div>
+                    <div class="floating-heart">💝</div>
+                </div>
+                <h1 class="title">I don't know what destiny is...</h1>
+                <p class="message">but I want to be yours in every incarnation</p>
+                <div class="final-question">
+                    <h2 class="question">So will you be my Khushi? 💍</h2>
+                    <div class="answer-buttons">
+                        <button class="yes-btn" onclick="sayYes()">Yes! 💕</button>
+                        <button class="no-btn" onclick="sayNo()">No 💔</button>
+                    </div>
+                </div>
+                <div id="response" class="response"></div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
